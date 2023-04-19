@@ -1,11 +1,10 @@
-#include <stdlib.h>
 #include "dog.h"
 
 /**
- * free_dog - ...
- * @d: ...
+ * free_dog - frees a memory block of type dog_t
+ * @d: address to the memory block to be freed
  *
- * Return: ...
+ * Return: void
  */
 void free_dog(dog_t *d)
 {
